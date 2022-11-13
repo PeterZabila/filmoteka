@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.firebase-emulator-warning {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+a,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    padding: 0;
+    border-width: 0;
+    cursor: pointer;
+}
