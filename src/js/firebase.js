@@ -1,5 +1,3 @@
-// import { initializeApp } from 'firebase/app';
-// import { getAuth, connectAuthEmulator, signInWithEmailAndPassword } from 'firebase/auth';
 import Notiflix from 'notiflix';
 
 // const firebaseConfig = {
@@ -14,9 +12,7 @@ import Notiflix from 'notiflix';
 // const firebaseApp = initializeApp(firebaseConfig);
 
 // const auth = getAuth(firebaseApp);
-
 // connectAuthEmulator(auth, 'http://localhost:5000');
-
 // const emailEl = document.querySelector('#authentication');
 
 // async function loginEmailPassword(event) {
@@ -34,7 +30,6 @@ import Notiflix from 'notiflix';
 //     Notiflix.Notify.failure(error.code);
 //   }
 // }
-
 // emailEl.addEventListener('submit', loginEmailPassword);
 
 import { AuthErrorCodes } from 'firebase/auth';
